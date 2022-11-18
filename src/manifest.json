@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Twitter Print Styles",
+  "name": "Twitter Print Styles - Original Images",
   "version": "2.1.4",
-  "description": "Simple print styles for saving Twitter threads as PDFs.",
+  "description": "Simple print styles for saving Twitter threads as PDFs. - Fork of original extension to include image in original size",
   "icons": {
     "16": "icon-16.png",
     "48": "icon-48.png",
