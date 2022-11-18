@@ -184,6 +184,7 @@ Dev Tools > More Tools > Rendering > Emulate CSS media type
   // Get the timeline.
   // NOTE: While several views have "Timelines", this is
   // only expected to work on _Tweets_ & _Threads_.
+  await (new Promise((resolve) => setTimeout(resolve, 0)));
   const timeline = document.querySelector('[data-testid="primaryColumn"] [role="region"] > div');
 
   if (!timeline) {
